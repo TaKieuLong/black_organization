@@ -1,7 +1,7 @@
 const app = require("./src/app.js");
 require("dotenv").config();
 const router = require("./src/routers/router");
-const PORT = process.env.PORT || 8000;
+const PORT = process.env.PORT || 8001;
 
 app.use("/", router);
 
